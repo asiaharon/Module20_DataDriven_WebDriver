@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="framework.datadriven.stockSuite.Test2">
+        <methods>
+          <include name="brforeTest"/>
+          <include name="test2" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- framework.datadriven.stockSuite.Test2 -->
+      <class name="framework.datadriven.stockSuite.AddStockTest">
+        <methods>
+          <include name="addStock" invocation-numbers="0 1 2"/>
+          <include name="close"/>
+          <include name="brforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.stockSuite.AddStockTest -->
+      <class name="framework.datadriven.portfolioSuite.LeastPerAssetTest">
+        <methods>
+          <include name="close"/>
+          <include name="brforeTest"/>
+          <include name="leastPerAssetTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.LeastPerAssetTest -->
+      <class name="framework.datadriven.portfolioSuite.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
+          <include name="brforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.LoginTest -->
+      <class name="framework.datadriven.portfolioSuite.Test3">
+        <methods>
+          <include name="brforeTest"/>
+          <include name="test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.Test3 -->
+      <class name="framework.datadriven.portfolioSuite.Test4">
+        <methods>
+          <include name="brforeTest"/>
+          <include name="test4" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.Test4 -->
+      <class name="framework.datadriven.portfolioSuite.Test5">
+        <methods>
+          <include name="brforeTest"/>
+          <include name="test5" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.Test5 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

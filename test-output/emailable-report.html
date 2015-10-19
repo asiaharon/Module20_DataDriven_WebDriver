@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">PortFolio Suite</th></tr><tr><td><a href="#t0">Login Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">43,430</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Least Per Asset Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">84,390</td><td></td><td></td></tr><tr><th colspan="7">Stock Suite</th></tr><tr><td><a href="#t2">Add Stock Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">84,408</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t3">Multiple Failures Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">144</td><td></td><td></td></tr><tr><th colspan="7">My Project</th></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">8</th><th class="num attn">4</th><th class="num">212,372</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PortFolio Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">framework.datadriven.portfolioSuite.LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1445255764946</td><td rowspan="1">40701</td></tr><tr><th colspan="4">Login Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">framework.datadriven.portfolioSuite.LoginTest</td><td><a href="#m1">loginTest</a></td><td rowspan="2">1445255764877</td><td rowspan="2">67</td></tr><tr class="skippedeven"><td><a href="#m2">loginTest</a></td></tr></tbody><tbody id="t1"><tr><th colspan="4">Least Per Asset Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">framework.datadriven.portfolioSuite.LeastPerAssetTest</td><td><a href="#m3">leastPerAssetTest</a></td><td rowspan="1">1445255807482</td><td rowspan="1">83808</td></tr><tr><th colspan="4">Least Per Asset Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">framework.datadriven.portfolioSuite.LeastPerAssetTest</td><td><a href="#m4">leastPerAssetTest</a></td><td rowspan="2">1445255891697</td><td rowspan="2">59</td></tr><tr class="skippedeven"><td><a href="#m5">leastPerAssetTest</a></td></tr></tbody><tbody><tr><th colspan="4">Stock Suite</th></tr></tbody><tbody id="t2"><tr><th colspan="4">Add Stock Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">framework.datadriven.stockSuite.AddStockTest</td><td><a href="#m6">addStock</a></td><td rowspan="1">1445255893114</td><td rowspan="1">83921</td></tr><tr><th colspan="4">Add Stock Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">framework.datadriven.stockSuite.AddStockTest</td><td><a href="#m7">addStock</a></td><td rowspan="2">1445255977409</td><td rowspan="2">37</td></tr><tr class="skippedeven"><td><a href="#m8">addStock</a></td></tr></tbody><tbody id="t3"><tr><th colspan="4">Multiple Failures Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">framework.datadriven.stockSuite.MultipleFailures</td><td><a href="#m9">multipleFailures</a></td><td rowspan="1">1445255977535</td><td rowspan="1">39</td></tr><tr><th colspan="4">Multiple Failures Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">framework.datadriven.stockSuite.MultipleFailures</td><td><a href="#m10">multipleFailures</a></td><td rowspan="2">1445255977614</td><td rowspan="2">36</td></tr><tr class="skippedeven"><td><a href="#m11">multipleFailures</a></td></tr></tbody><tbody><tr><th colspan="4">My Project</th></tr></tbody></table><h2>Login Test</h2><h3 id="m0">framework.datadriven.portfolioSuite.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Username=C24, Password=C35, Runmode=Y, Expected_Result=SUCCESS, Browser=Chrome, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=46.0.2490.71)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31.36 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\USER\AppData\Local\Temp\scoped_dir6328_6577}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d0d77416ebd823bba12c11a23c291a35
+Command duration or timeout: 31.96 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\USER\AppData\Local\Temp\scoped_dir6328_6577}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=6c2c3b02-8aaa-4e2d-b8f5-7e4a508b8ab0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6c2c3b02-8aaa-4e2d-b8f5-7e4a508b8ab0
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:94)
+	at framework.datadriven.TestBase.input(TestBase.java:189)
+	at framework.datadriven.portfolioSuite.LoginTest.loginTest(LoginTest.java:42)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 30 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=46.0.2490.71)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31.36 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\USER\AppData\Local\Temp\scoped_dir6328_6577}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d0d77416ebd823bba12c11a23c291a35
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:334)
+	at com.sun.proxy.$Proxy2.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:357)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.sendKeys(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:50)
+	at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">framework.datadriven.portfolioSuite.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Username=C23, Password=C34, Runmode=N, Expected_Result=FAILURE, Browser=Chrome, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;LoginTest&apos; inside the suite &apos;PortFolio_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.portfolioSuite.LoginTest.loginTest(LoginTest.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">framework.datadriven.portfolioSuite.LoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Username=C22, Password=C33, Runmode=N, Expected_Result=SUCCESS, Browser=Mozilla, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;LoginTest&apos; inside the suite &apos;PortFolio_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.portfolioSuite.LoginTest.loginTest(LoginTest.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Least Per Asset Test</h2><h3 id="m3">framework.datadriven.portfolioSuite.LeastPerAssetTest#leastPerAssetTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Runmode=Y, Browser=Mozilla, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 30.38 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=74ea8a16-2e8a-422c-870e-dcb638548a48, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 74ea8a16-2e8a-422c-870e-dcb638548a48
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:94)
+	at framework.datadriven.TestBase.input(TestBase.java:189)
+	at framework.datadriven.TestBase.doLogin(TestBase.java:284)
+	at framework.datadriven.TestBase.doDefaultLogin(TestBase.java:294)
+	at framework.datadriven.portfolioSuite.LeastPerAssetTest.leastPerAssetTest(LeastPerAssetTest.java:29)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 32 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/USER/AppData/Local/Temp/anonymous7937787197950170703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/USER/AppData/Local/Temp/anonymous7937787197950170703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/USER/AppData/Local/Temp/anonymous7937787197950170703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/USER/AppData/Local/Temp/anonymous7937787197950170703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">framework.datadriven.portfolioSuite.LeastPerAssetTest#leastPerAssetTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Runmode=N, Browser=Chrome, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;LeastPerAssetTest&apos; inside the suite &apos;PortFolio_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.portfolioSuite.LeastPerAssetTest.leastPerAssetTest(LeastPerAssetTest.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">framework.datadriven.portfolioSuite.LeastPerAssetTest#leastPerAssetTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Runmode=N, Browser=Chrome, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;LeastPerAssetTest&apos; inside the suite &apos;PortFolio_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.portfolioSuite.LeastPerAssetTest.leastPerAssetTest(LeastPerAssetTest.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Add Stock Test</h2><h3 id="m6">framework.datadriven.stockSuite.AddStockTest#addStock</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Price=100, Runmode=Y, Stock Name=HDFC Bank Ltd., Quantity=10, PurchaseDate=4/8/13, Browser=Mozilla, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 30.36 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ac9eda25-ce16-4ab9-b35f-4c2752ce35cd, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ac9eda25-ce16-4ab9-b35f-4c2752ce35cd
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:94)
+	at framework.datadriven.TestBase.input(TestBase.java:189)
+	at framework.datadriven.TestBase.doLogin(TestBase.java:284)
+	at framework.datadriven.TestBase.doDefaultLogin(TestBase.java:294)
+	at framework.datadriven.stockSuite.AddStockTest.addStock(AddStockTest.java:35)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
+	... 32 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;USER-PC&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/USER/AppData/Local/Temp/anonymous7647059907986688966webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/USER/AppData/Local/Temp/anonymous7647059907986688966webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/USER/AppData/Local/Temp/anonymous7647059907986688966webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/USER/AppData/Local/Temp/anonymous7647059907986688966webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">framework.datadriven.stockSuite.AddStockTest#addStock</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Price=150, Runmode=N, Stock Name=Tata Consultancy Services Ltd., Quantity=20, PurchaseDate=12/19/13, Browser=Chrome, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;AddStock&apos; inside the suite &apos;Stock_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.stockSuite.AddStockTest.addStock(AddStockTest.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">framework.datadriven.stockSuite.AddStockTest#addStock</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Price=300, Runmode=N, Stock Name=NTPC Ltd., Quantity=30, PurchaseDate=12/19/13, Browser=Mozilla, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;AddStock&apos; inside the suite &apos;Stock_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.stockSuite.AddStockTest.addStock(AddStockTest.java:32)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Multiple Failures Test</h2><h3 id="m9">framework.datadriven.stockSuite.MultipleFailures#multipleFailures</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C43, Col3=C33, Col2=C22, Col1=C11, Runmode=Y, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [B3] but found [A3]
+	at framework.datadriven.stockSuite.MultipleFailures.multipleFailures(MultipleFailures.java:50)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">framework.datadriven.stockSuite.MultipleFailures#multipleFailures</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C46, Col3=C35, Col2=C24, Col1=C31, Runmode=N, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;MultipleFailures&apos; inside the suite &apos;Stock_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.stockSuite.MultipleFailures.multipleFailures(MultipleFailures.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">framework.datadriven.stockSuite.MultipleFailures#multipleFailures</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Col4=C45, Col3=C34, Col2=C23, Col1=C21, Runmode=N, Result=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping: the testcase &apos;MultipleFailures&apos; inside the suite &apos;Stock_Suite&apos;
+	at framework.datadriven.TestBase.validateRunmodes(TestBase.java:103)
+	at framework.datadriven.stockSuite.MultipleFailures.multipleFailures(MultipleFailures.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

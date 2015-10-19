@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PortFolio Suite]">
+  <listeners>
+    <listener class-name="framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="framework.datadriven.portfolioSuite.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.LoginTest -->
+      <class name="framework.datadriven.portfolioSuite.LeastPerAssetTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.LeastPerAssetTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Least Per Asset Test(failed)">
+    <classes>
+      <class name="framework.datadriven.portfolioSuite.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.LoginTest -->
+      <class name="framework.datadriven.portfolioSuite.LeastPerAssetTest">
+        <methods>
+          <include name="close"/>
+          <include name="beforeTest"/>
+          <include name="leastPerAssetTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- framework.datadriven.portfolioSuite.LeastPerAssetTest -->
+    </classes>
+  </test> <!-- Least Per Asset Test(failed) -->
+</suite> <!-- Failed suite [PortFolio Suite] -->

@@ -1,0 +1,6 @@
+2015-10-18 21:54:21,158 DEBUG [LeastPerAssetTest] Validating runmode: for 'LeastPerAssetTest' in suite 'PortFolio_Suite'
+2015-10-18 21:54:21,225 DEBUG [LeastPerAssetTest] Skipping: the testcase 'LeastPerAssetTest' inside the suite 'PortFolio_Suite'
+2015-10-18 21:54:21,227 DEBUG [LeastPerAssetTest] Validating runmode: for 'LeastPerAssetTest' in suite 'PortFolio_Suite'
+2015-10-18 21:54:21,288 DEBUG [LeastPerAssetTest] Skipping: the testcase 'LeastPerAssetTest' inside the suite 'PortFolio_Suite'
+2015-10-18 21:54:21,303 DEBUG [LeastPerAssetTest] Validating runmode: for 'LeastPerAssetTest' in suite 'PortFolio_Suite'
+2015-10-18 21:54:21,355 DEBUG [LeastPerAssetTest] Skipping: the testcase 'LeastPerAssetTest' inside the suite 'PortFolio_Suite'

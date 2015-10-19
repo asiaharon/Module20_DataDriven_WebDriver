@@ -1,0 +1,6 @@
+2015-10-19 13:12:05,158 DEBUG [LoginTest] Validating runmode: for 'LoginTest' in suite 'PortFolio_Suite'
+2015-10-19 13:12:05,256 DEBUG [LoginTest] Skipping: the testcase 'LoginTest' inside the suite 'PortFolio_Suite'
+2015-10-19 13:12:05,258 DEBUG [LoginTest] Validating runmode: for 'LoginTest' in suite 'PortFolio_Suite'
+2015-10-19 13:12:05,327 DEBUG [LoginTest] Skipping: the testcase 'LoginTest' inside the suite 'PortFolio_Suite'
+2015-10-19 13:12:05,329 DEBUG [LoginTest] Validating runmode: for 'LoginTest' in suite 'PortFolio_Suite'
+2015-10-19 13:12:05,401 DEBUG [LoginTest] Executing: test1

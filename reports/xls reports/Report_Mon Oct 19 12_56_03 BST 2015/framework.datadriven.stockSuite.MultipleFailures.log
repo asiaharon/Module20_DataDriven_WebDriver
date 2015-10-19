@@ -1,0 +1,6 @@
+2015-10-19 12:59:37,535 DEBUG [MultipleFailures] Validating runmode: for 'MultipleFailures' in suite 'Stock_Suite'
+2015-10-19 12:59:37,573 DEBUG [MultipleFailures] Executing: multipleFailures
+2015-10-19 12:59:37,576 DEBUG [MultipleFailures] Validating runmode: for 'MultipleFailures' in suite 'Stock_Suite'
+2015-10-19 12:59:37,613 DEBUG [MultipleFailures] Skipping: the testcase 'MultipleFailures' inside the suite 'Stock_Suite'
+2015-10-19 12:59:37,614 DEBUG [MultipleFailures] Validating runmode: for 'MultipleFailures' in suite 'Stock_Suite'
+2015-10-19 12:59:37,650 DEBUG [MultipleFailures] Skipping: the testcase 'MultipleFailures' inside the suite 'Stock_Suite'

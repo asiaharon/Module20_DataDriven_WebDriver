@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Stock Suite]">
+  <listeners>
+    <listener class-name="framework.datadriven.CustomListener"/>
+  </listeners>
+  <test name="Add Stock Test(failed)">
+    <classes>
+      <class name="framework.datadriven.stockSuite.MultipleFailures">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.stockSuite.MultipleFailures -->
+      <class name="framework.datadriven.stockSuite.AddStockTest">
+        <methods>
+          <include name="addStock" invocation-numbers="0 1 2"/>
+          <include name="beforeTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- framework.datadriven.stockSuite.AddStockTest -->
+    </classes>
+  </test> <!-- Add Stock Test(failed) -->
+  <test name="Multiple Failures Test(failed)">
+    <classes>
+      <class name="framework.datadriven.stockSuite.MultipleFailures">
+        <methods>
+          <include name="multipleFailures" invocation-numbers="0 1 2"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- framework.datadriven.stockSuite.MultipleFailures -->
+      <class name="framework.datadriven.stockSuite.AddStockTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- framework.datadriven.stockSuite.AddStockTest -->
+    </classes>
+  </test> <!-- Multiple Failures Test(failed) -->
+</suite> <!-- Failed suite [Stock Suite] -->

@@ -1,0 +1,6 @@
+2015-10-19 11:10:21,810 DEBUG [AddStockTest] Validating runmode: for 'AddStock' in suite 'Stock_Suite'
+2015-10-19 11:10:21,873 DEBUG [AddStockTest] Skipping: the testcase 'AddStock' inside the suite 'Stock_Suite'
+2015-10-19 11:10:21,876 DEBUG [AddStockTest] Validating runmode: for 'AddStock' in suite 'Stock_Suite'
+2015-10-19 11:10:21,917 DEBUG [AddStockTest] Skipping: the testcase 'AddStock' inside the suite 'Stock_Suite'
+2015-10-19 11:10:21,919 DEBUG [AddStockTest] Validating runmode: for 'AddStock' in suite 'Stock_Suite'
+2015-10-19 11:10:21,959 DEBUG [AddStockTest] Skipping: the testcase 'AddStock' inside the suite 'Stock_Suite'

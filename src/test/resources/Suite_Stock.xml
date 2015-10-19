@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stock Suite">
+
+<test name="Add Stock Test">
+    <classes>
+        <class name="framework.datadriven.stockSuite.AddStockTest" ></class>  
+    </classes>
+</test>
+
+<test name="Multiple Failures Test">
+    <classes>
+        <class name="framework.datadriven.stockSuite.MultipleFailures" ></class>  
+    </classes>
+</test>
+
+</suite>
+

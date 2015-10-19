@@ -1,0 +1,2 @@
+2015-10-18 21:57:57,767 DEBUG [MultipleFailures] Validating runmode: for 'MultipleFailures' in suite 'Stock_Suite'
+2015-10-18 21:57:57,801 DEBUG [MultipleFailures] Executing: multipleFailures

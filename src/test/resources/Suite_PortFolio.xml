@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PortFolio Suite">
+
+  <test name="Login Test">
+    <classes>
+        <class name="framework.datadriven.portfolioSuite.LoginTest" ></class>  
+    </classes>
+  </test>
+
+  <test name="Least Per Asset Test">
+    <classes>
+        <class name="framework.datadriven.portfolioSuite.LeastPerAssetTest" ></class>  
+    </classes>
+  </test>
+
+</suite>
+
